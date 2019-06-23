@@ -17,6 +17,9 @@
     margin-right: 10px;
 }
 
+.home{
+    width: 100%;
+}
 .home .mh{
     width: fit-content;
     margin-left:auto;
@@ -24,14 +27,14 @@
     text-align: center;
 }
 
-.home h1{
+.home .mh h1{
     font: bold 4.6em "Fira Sans", serif;
     -webkit-text-stroke: 1px yellow;
-    margin-bottom: -4%;
+    /* margin-bottom: -4%; */
     margin-top: 50px;
 }
-.home h4{
-    font: bold 1em "Fira Sans", serif;
+.home .mh h4{
+    font: bold 1.1em "Fira Sans", serif;
     text-align: right;
     margin-right: 20px;
 }
