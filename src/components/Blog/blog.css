@@ -25,12 +25,13 @@
     margin-left:auto;
     margin-right:auto;
     text-align: center;
+    color: rgb(85, 85, 85);
 }
 
 .home .mh h1{
     font: bold 4.6em "Fira Sans", serif;
-    -webkit-text-stroke: 1px yellow;
-    /* margin-bottom: -4%; */
+    -webkit-text-stroke: 3px  rgb(0, 0, 0);
+    margin-bottom: -4%;
     margin-top: 50px;
 }
 .home .mh h4{
@@ -38,3 +39,27 @@
     text-align: right;
     margin-right: 20px;
 }
+.home .mh a{
+    text-decoration: none !important;
+    color: black !important;
+}
+.button{
+    border: 3px solid black;
+    border-radius: 25px;
+    cursor: pointer;
+    padding: 10px 35px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 45px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    background-color: Transparent;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+.button:hover {
+    background-color:  rgb(85, 85, 85); /* Green */
+    color: white;
+  }
