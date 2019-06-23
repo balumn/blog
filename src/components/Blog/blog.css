@@ -1,0 +1,37 @@
+.warning {
+    margin: 1% 6% 1% 6%;
+    background-color: #F2DEDE;
+    font-size: 17px;
+    border-radius: 10px;
+}
+.warning p {
+    padding: 15px;
+    color: #A94543;
+    margin-left: 10px;
+}
+.warning p a {
+    text-decoration: none;
+    color: #A94543;
+}
+.warning p b {
+    margin-right: 10px;
+}
+
+.home .mh{
+    width: fit-content;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+}
+
+.home h1{
+    font: bold 4.6em "Fira Sans", serif;
+    -webkit-text-stroke: 1px yellow;
+    margin-bottom: -4%;
+    margin-top: 50px;
+}
+.home h4{
+    font: bold 1em "Fira Sans", serif;
+    text-align: right;
+    margin-right: 20px;
+}
