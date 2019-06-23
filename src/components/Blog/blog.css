@@ -4,6 +4,7 @@
     font-size: 17px;
     border-radius: 10px;
     width: fit-content;
+    width: -moz-fit-content;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -110,6 +111,8 @@
     width: 100%;
     margin-top: 100px;
     text-align: center;
+    padding: 5px;
+    margin: 5px;
 }
 .quote{
     margin-top: 100px;
