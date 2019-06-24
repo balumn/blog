@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import "./blog.css"
 import "./mobile.css"
+import "./tab.css"
 // fa-fa
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
@@ -16,8 +17,7 @@ class Blog extends Component {
             <React.Fragment>
                 <div className="warning">
                     <p>
-                        <b>Warning!</b>This page may contain stupidity. For the same reason I cant allow you to comment on my posts.
-                        <em><a href="https://balumn.github.io"> Abandon Ship!</a></em>
+                        <b>Warning!</b>This page may contain stupidity.
                     </p>
                 </div>
                 <div className="home">
@@ -36,7 +36,7 @@ class Blog extends Component {
                                 <a href="mailto:balumn@ieee.org" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faEnvelope} color="black"  size="2x"/></a>
                             </li>
                             <li key="github">
-                                <a href="http://github.com/balumn" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} color="black" size="2x" /></a>
+                                <a href="https://github.com/balumn" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} color="black" size="2x" /></a>
                             </li>
                             <li key="linkedin">
                                 <a href="https://www.linkedin.com/in/balumn/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} color="black" size="2x" /></a>

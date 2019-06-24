@@ -64,11 +64,12 @@
     padding: 10px 35px;
     text-align: center;
     text-decoration: none;
-    font-size: 45px;
+    font-size: 35px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     color: black;
+    letter-spacing: 1.5px;
     background-color: Transparent;
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
