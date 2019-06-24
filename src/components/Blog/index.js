@@ -23,7 +23,7 @@ class Blog extends Component {
                 <div className="home">
                     <div className="mh">
                         <h1>Thoughts OverFlow!</h1>
-                        <h4><a href="https://balumn.github.io" target="_blank">@balumn</a></h4>
+                        <h4><a href="https://balumn.github.io" target="_blank" rel="noopener noreferrer">@balumn</a></h4>
                     </div>
                     <button className="button">BLOG</button>
                     <div className="quote">

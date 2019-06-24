@@ -1,5 +1,4 @@
 .warning {
-    /* margin-left:6%; */
     background-color: #F2DEDE;
     font-size: 17px;
     border-radius: 10px;
@@ -32,10 +31,12 @@
 
 .home .mh {
     width: fit-content;
+    width: -moz-fit-content;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     color: rgb(85, 85, 85);
+    margin-bottom: 2%;
 }
 
 .home .mh h1 {
@@ -117,6 +118,7 @@
 .quote{
     margin-top: 100px;
     width: fit-content;
+    width: -moz-fit-content;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
