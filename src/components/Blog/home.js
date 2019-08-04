@@ -11,7 +11,7 @@ import { faFacebook } from '@fortawesome/free-brands-svg-icons'
 import { faStackOverflow } from '@fortawesome/free-brands-svg-icons'
 import { faInstagram } from '@fortawesome/free-brands-svg-icons'
 
-class Blog extends Component {
+class Home extends Component {
     render() {
         return (
             <React.Fragment>
@@ -59,4 +59,4 @@ class Blog extends Component {
     }
 }
 
-export default Blog;
+export default Home;
