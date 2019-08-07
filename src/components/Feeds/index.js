@@ -7,9 +7,15 @@ class Feeds extends Component {
             <React.Fragment>
                 <Header />
                 <div className="topics-listing">
-                    <div className="preview">
 
+                    {/* 1st post preview */}
+                    <div className="preview">
+                        <b>About Thoughts OverFlow!</b>
+                        <p className="abs"> What made me writing something on the web. </p>
+                        <p className="date">Aug 7, 2019 </p>
                     </div>
+
+
                 </div>
             </React.Fragment>
         );

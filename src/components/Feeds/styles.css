@@ -1,4 +1,33 @@
+
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+
 .topics-listing{
-    margin-left: 150px;
+    margin-left: 10%;
     padding-top: 30px;
+}
+
+/* Each item in the Feeds List */
+.preview{
+    width: 70%;
+    padding: 25px;
+    border: solid 1px #8B8B8B;
+    background-image: linear-gradient(to right,#E6E6E6,#FFFFFF);
+    margin-bottom: 50px;
+}
+.preview:hover{
+    border: solid 3px #4B00D4;
+}
+
+/* Main heading of Each Item */
+.preview b{
+    font: bold 23px 'Lato', cursive;
+}
+.preview .abs{
+    font: lighter 18px cursive;
+}
+.preview .date{
+    color: 8c8c8c;
+    font: medium 15px 'Roboto', cursive;
+
 }
