@@ -7,10 +7,9 @@ class Feeds extends Component {
             <React.Fragment>
                 <Header />
                 <div className="topics-listing">
-                    <ul>
-                        <li>Types of friends I have.</li>
-                        <li>How to pass B.Tech exams</li>
-                    </ul>
+                    <div className="preview">
+
+                    </div>
                 </div>
             </React.Fragment>
         );

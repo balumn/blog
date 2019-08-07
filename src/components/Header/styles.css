@@ -1,35 +1,43 @@
 .header {
     overflow: hidden;
     background-color: #ffffff;
-    padding: 20px 10px;
+    padding: 0 10px;
+    border: 5px solid rgb(230, 230, 230);
+    border-radius: 4px;
+    text-align: center; 
   }
   
   /* Style the header links */
   .header a {
     float: left;
     color: black;
-    /* text-align: center; */
-    /* padding: 12px; */
     text-decoration: none;
-    line-height: 25px;
-    border-radius: 4px;
+    line-height: 35px;
   }
   
   /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
   .header a.logo {
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
-    letter-spacing: 2px;
-    padding-left: 10px;
+    letter-spacing: 3px;
+    padding-left: 50px;
   }
 
  .mh1 {
     width: fit-content;
     width: -moz-fit-content;
-    margin-left: auto;
-    margin-right: auto;
     text-align: left;
     color: rgb(85, 85, 85);
     font: bold 2em "Fira Sans", serif;
-    -webkit-text-stroke: 3px rgb(0, 0, 0);
+    -webkit-text-stroke: 2.5px rgb(0, 0, 0);
+}
+.power{
+  float: right;
+}
+
+.power img {
+  margin-right: 35px;
+  border: 5px solid rgb(139, 139, 139);
+  border-radius: 50%;
+
 }

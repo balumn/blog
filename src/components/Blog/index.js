@@ -10,6 +10,8 @@ import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { faFacebook } from '@fortawesome/free-brands-svg-icons'
 import { faStackOverflow } from '@fortawesome/free-brands-svg-icons'
 import { faInstagram } from '@fortawesome/free-brands-svg-icons'
+import { Link } from "react-router-dom";
+
 
 class Blog extends Component {
     render() {
@@ -26,7 +28,7 @@ class Blog extends Component {
                         <h1>Thoughts OverFlow!</h1>
                         <h4><a href="https://balumn.github.io" target="_blank" rel="noopener noreferrer">@balumn</a></h4>
                     </div>
-                    <button className="button">BLOG</button>
+                    <Link to="/read" style={{ textDecoration: 'none' }}><button className="button">BLOG</button></Link>
                     <div className="quote">
                         <em>“There is no greater agony than bearing an untold story inside you.”</em>
                         <p>- Maya Angelou</p>
