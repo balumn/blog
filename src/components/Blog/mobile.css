@@ -1,8 +1,16 @@
 @media screen and (max-width: 450px){
 
+    .warning p {
+        padding: 10px 5px;
+        color: #A94543;
+        margin-left: 10px;
+        font-size: .5em;
+    }
+
     .home .mh h1{
     font: bold 50px "Fira Sans", serif;
     letter-spacing: 1.5px;
+    margin-top: -2px;
     }
 
     .home .mh h4{
@@ -14,6 +22,7 @@
     }
     .quote{
         margin-top: 50px;
+        font-size: 15px !important;
         width: fit-content;
         width: -moz-fit-content;
         text-align: center;
@@ -24,6 +33,6 @@
         text-align: center;
     }
     .social li{
-        font-size: 17px;
+        font-size: 15px !important;
     }
 } 

@@ -135,9 +135,6 @@
     text-align: center;
     padding: 5px;
     margin: 5px;
-    position: fixed;
-    left: 0;
-    bottom: 0;
 }
 .link{
     text-decoration: none;
