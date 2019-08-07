@@ -15,6 +15,27 @@ class Feeds extends Component {
                         <p className="date">Aug 7, 2019 </p>
                     </div>
 
+                    {/* 2nd post preview */}
+                    <div className="preview">
+                        <b>How I got my driving licence ?</b>
+                        <p className="abs"> Isn't there something uncommon about the driving licence tests in Kerala? </p>
+                        <p className="date">Aug 7, 2019 </p>
+                    </div>
+         
+                    {/* 2nd post preview */}
+                    <div className="preview">
+                        <b>How I got my driving licence ?</b>
+                        <p className="abs"> Isn't there something uncommon about the driving licence tests in Kerala? </p>
+                        <p className="date">Aug 7, 2019 </p>
+                    </div>
+                    
+                    {/* 2nd post preview */}
+                    <div className="preview">
+                        <b>How I got my driving licence ?</b>
+                        <p className="abs"> Isn't there something uncommon about the driving licence tests in Kerala? </p>
+                        <p className="date">Aug 7, 2019 </p>
+                    </div>           
+
 
                 </div>
             </React.Fragment>

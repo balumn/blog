@@ -1,43 +1,46 @@
 .header {
-    overflow: hidden;
-    background-color: #ffffff;
-    padding: 0 10px;
-    border: 5px solid rgb(230, 230, 230);
-    border-radius: 4px;
-    text-align: center; 
-  }
+  background-color: #ffffff;
+  border: 5px solid rgb(230, 230, 230);
+  border-radius: 4px;
+  text-align: center; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  position: sticky;
+  overflow: hidden;
+}
   
   /* Style the header links */
-  .header a {
-    float: left;
-    color: black;
-    text-decoration: none;
-    line-height: 35px;
-  }
+.header a {
+  float: left;
+  color: black;
+  text-decoration: none;
+}
   
   /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
-  .header a.logo {
-    font-size: 25px;
-    font-weight: bold;
-    letter-spacing: 3px;
-    padding-left: 50px;
-  }
-
- .mh1 {
-    width: fit-content;
-    width: -moz-fit-content;
-    text-align: left;
-    color: rgb(85, 85, 85);
-    font: bold 2em "Fira Sans", serif;
-    -webkit-text-stroke: 2.5px rgb(0, 0, 0);
+.header a.logo {
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  padding-left: 50px;
 }
+
+.mh1 {
+  width: fit-content;
+  width: -moz-fit-content;
+  text-align: left;
+  color: rgb(85, 85, 85);
+  font: bold 2em "Fira Sans", serif;
+  -webkit-text-stroke: 2.5px rgb(0, 0, 0);
+}
+
 .power{
   float: right;
 }
 
 .power img {
   margin-right: 35px;
-  border: 5px solid #4B00D4;
+  border: 2px solid #4B00D4;
   border-radius: 50%;
-
+  width: 50px;
 }

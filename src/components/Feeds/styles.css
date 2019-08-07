@@ -5,6 +5,8 @@
 .topics-listing{
     margin-left: 10%;
     padding-top: 30px;
+    margin-top: 2%;
+    overflow: hidden;
 }
 
 /* Each item in the Feeds List */
@@ -27,7 +29,7 @@
     font: lighter 18px cursive;
 }
 .preview .date{
-    color: 8c8c8c;
+    color: #8c8c8c;
     font: medium 15px 'Roboto', cursive;
 
 }
