@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import "./styles.css"
 import Header from '../Header';
+import { Link } from "react-router-dom"
 class Feeds extends Component {
     render() {
         return (
@@ -9,11 +10,13 @@ class Feeds extends Component {
                 <div className="topics-listing">
 
                     {/* 1st post preview */}
-                    <div className="preview">
-                        <b>About Thoughts OverFlow!</b>
-                        <p className="abs"> What made me writing something on the web. </p>
-                        <p className="date">Aug 7, 2019 </p>
-                    </div>
+                    <Link to="/read/about-thoughts-overflow" style={{ textDecoration: 'none',color:'black' }}>
+                        <div className="preview">
+                            <b>About Thoughts OverFlow!</b>
+                            <p className="abs"> What made me writing something on the web. </p>
+                            <p className="date">Aug 7, 2019 </p>
+                        </div>
+                    </Link>
 
                     {/* 2nd post preview */}
                     <div className="preview">

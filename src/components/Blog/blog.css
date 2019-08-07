@@ -1,14 +1,25 @@
-.blog{
+/* #000000 */
 
+
+.blog{
+    
     height: 100%;
     /* background: yellow; */
     margin: 0%;
     position: fixed;
     bottom: 0;
     width: 100%;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
 }
 .warning {
     background-color: #F2DEDE;
+    z-index: -11065;
     font-size: 17px;
     border-radius: 10px;
     width: fit-content;
@@ -44,15 +55,17 @@
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    color: rgb(85, 85, 85);
+    color: #000000;
     margin-bottom: 2%;
+
 }
 
 .home .mh h1 {
     font: bold 4.6em "Fira Sans", serif;
-    -webkit-text-stroke: 3px rgb(0, 0, 0);
+    /* -webkit-text-stroke: 3px #000000; */
     margin-bottom: -4%;
     margin-top: 50px;
+    
 }
 
 .home .mh h4 {
@@ -62,12 +75,12 @@
 }
 
 .home .mh a {
+    color: #000000;
     text-decoration: none !important;
-    color: black !important;
 }
 
 .button {
-    border: 3px solid black;
+    border: 3px solid #000000;
     border-radius: 25px;
     cursor: pointer;
     padding: 10px 35px;
@@ -77,32 +90,19 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    color: black;
     letter-spacing: 1.5px;
     background-color: Transparent;
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
 
-    -webkit-touch-callout: none; /* iOS Safari */
-    -webkit-user-select: none; /* Safari */
-     -khtml-user-select: none; /* Konqueror HTML */
-       -moz-user-select: none; /* Firefox */
-        -ms-user-select: none; /* Internet Explorer/Edge */
-            user-select: none; /* Non-prefixed version, currently
-                                  supported by Chrome and Opera */
-}
-
-.button:hover {
-    background-color: rgb(85, 85, 85);
-    /* Green */
-    color: white;
+    
 }
 
 .home .social {
     margin: 24px 0 !important;
     padding: 0;
     font-size: 30px;
-    text-shadow: 0px 1px 2px rgba(0, 0, 0, .8);
+    text-shadow: 0px 1px 2px #000000;
 }
 
 .home .social li {
@@ -111,12 +111,12 @@
     padding: 0;
 }
 
-.home .social li a {
-    color: #fff;
+.home .social a {
+    color: black;
 }
 
-.home .social li a:hover {
-    color: #11ABB0;
+.home .social a:hover {
+    color: #000000;
 }
 .quote{
     margin-top: 100px;
