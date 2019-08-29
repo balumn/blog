@@ -6,7 +6,7 @@ import "./styles.css"
 
 class One extends Component{
     Heading = {
-        title: "What made me to write something on the web"
+        title: "About Thoughts OverFlow"
     };
     render(){
         return(
