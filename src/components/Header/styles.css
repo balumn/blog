@@ -20,18 +20,17 @@
   /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
 .header a.logo {
   font-size: 20px;
-  font-weight: bold;
-  letter-spacing: 3px;
-  padding-left: 3%;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  padding: 0 3%;
 }
 
 .mh1 {
   width: fit-content;
   width: -moz-fit-content;
   text-align: left;
-  color: rgb(85, 85, 85);
+  color: rgb(0, 0, 0);
   font: bold 2em "Fira Sans", serif;
-  -webkit-text-stroke: 2.5px rgb(0, 0, 0);
 }
 
 .power{
@@ -39,22 +38,15 @@
 }
 
 .power img {
-  margin-right: 35px;
-  border: 2px solid #4B00D4;
+  margin: auto 35px;
+  border: 2px solid rgb(230, 230, 230);
   border-radius: 50%;
   width: 50px;
 }
 
 @media screen and (max-width: 950px){
   .power{
-    float: left;
-    width: 15%;
-    top: 0;
-    left: 0;
-    overflow-x: hidden;
-    position: fixed;
-    z-index: 1;
-    margin-right: 3px;
+    display: none;
   }
   .logo{
     width: 85%;

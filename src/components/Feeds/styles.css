@@ -18,7 +18,7 @@
     margin-bottom: 50px;
 }
 .preview:hover{
-    border: solid 3px #4B00D4;
+    border: solid 3px rgb(107, 100, 100);
 }
 
 /* Main heading of Each Item */
@@ -31,5 +31,4 @@
 .preview .date{
     color: #8c8c8c;
     font: medium 15px 'Roboto', cursive;
-
 }

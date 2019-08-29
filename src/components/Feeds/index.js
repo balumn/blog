@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import "./styles.css"
 import Header from '../Header';
 import { Link } from "react-router-dom"
+import Footer from "../Footer"
 class Feeds extends Component {
     render() {
         return (
@@ -19,28 +20,15 @@ class Feeds extends Component {
                     </Link>
 
                     {/* 2nd post preview */}
-                    <div className="preview">
+                    {/* <div className="preview">
                         <b>How I got my driving licence ?</b>
                         <p className="abs"> Isn't there something uncommon about the driving licence tests in Kerala? </p>
                         <p className="date">Aug 7, 2019 </p>
-                    </div>
+                    </div> */}
          
-                    {/* 2nd post preview */}
-                    <div className="preview">
-                        <b>How I got my driving licence ?</b>
-                        <p className="abs"> Isn't there something uncommon about the driving licence tests in Kerala? </p>
-                        <p className="date">Aug 7, 2019 </p>
-                    </div>
-                    
-                    {/* 2nd post preview */}
-                    <div className="preview">
-                        <b>How I got my driving licence ?</b>
-                        <p className="abs"> Isn't there something uncommon about the driving licence tests in Kerala? </p>
-                        <p className="date">Aug 7, 2019 </p>
-                    </div>           
-
 
                 </div>
+                <Footer />
             </React.Fragment>
         );
     }

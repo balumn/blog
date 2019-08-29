@@ -22,9 +22,9 @@ class Blog extends Component {
         }
       }
       
-      myColors = ['#ffe28c',"#fcfa53", '#c6ff8c', '#8cffa3', '#8cfff9', '#cf99ff', '#ff99ee', '#8fff5e', '#fffc5e', '#5ebcff'];
+      myColors = ['#ffe28c','#d4c396','#7da130','#1a999c',"#fcfa53", '#c6ff8c', '#8cffa3', '#8cfff9', '#cf99ff', '#ff99ee', '#8fff5e', '#fffc5e', '#5ebcff'];
       
-      newColorFun = (e) => {
+      newColorFun = () => {
           return(this.myColors[Math.floor(Math.random() * this.myColors.length)]);
       }
 
