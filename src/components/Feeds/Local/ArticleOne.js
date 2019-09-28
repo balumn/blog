@@ -14,8 +14,10 @@ class One extends Component{
                 <Header />
                     <HeadingOne data={this.Heading} />
                     <div className="content">
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                            It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                        <p> It says that, one should consume books to write one. That makes me a <e>not-a-writer</e>. I dont even write diary daily. Yet I like to open up a little. My thoughts, experiences, and so on. You can expect personal as well as technical writings. 
+                            <br /> It's been a while since I have this urge to write something. After all, it isn't a big deal right? Elon Musk founded ZIP2 at this age, then why couldn't I start writing a blog ?
+                            <br /> As a responsible author, I should warn you about my irresponsiblity in grammatical and spelling mistakes. I may use some malayalam words in between, hope you wouldn't mind. 
+                        </p>
                     </div>
                 <Footer />
             </React.Fragment>
