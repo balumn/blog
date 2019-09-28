@@ -11,7 +11,7 @@ class One extends Component{
     render(){
         return(
             <React.Fragment>
-                <Header />
+                <Header/>
                     <HeadingOne data={this.Heading} />
                     <div className="content">
                         <p> It says that, one should consume books to write one. That makes me definitly a <e>the-one-who-should'nt-write-in-his-entire-life</e>. I dont even write diary daily. Yet I like to open up a little. My thoughts, experiences, and so on. You can expect personal as well as technical writings. 
