@@ -6,7 +6,7 @@
     left: 0;
     width: 100%;
     position: fixed;
-    overflow: hidden;
+    overflow: auto;
     font-size: 15px;
     border: 1px solid #E6E6E6;
     background-color: white;
@@ -21,4 +21,12 @@
  }
  .foot a:active{
     color: #11ABB0;
+ }
+
+ @media screen and (max-width: 450px){
+
+   .foot{
+      display: none;
+   }
+
  }

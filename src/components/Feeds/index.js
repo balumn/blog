@@ -15,7 +15,7 @@ class Feeds extends Component {
                         <div className="preview">
                             <b>About Thoughts OverFlow!</b>
                             <p className="abs"> What made me writing something on the web. </p>
-                            <p className="date">Aug 7, 2019 </p>
+                            <p className="date">Sept 28, 2019 </p>
                         </div>
                     </Link>
 
